@@ -1,4 +1,5 @@
-# Sorting three given numbers in ascending order
+# Enter three numbers
+# sort them in ascending order
 
 i = 1
 flist = []
