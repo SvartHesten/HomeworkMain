@@ -1,4 +1,7 @@
-# three exam pass test
+# enter three exam scores
+# exam pass score is 40 or greaster
+# at least two exams must be passed
+# the aaverage should be 50 and up
 
 j = 0
 score_list = []
