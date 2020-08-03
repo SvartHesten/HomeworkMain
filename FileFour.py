@@ -1,4 +1,5 @@
-# sum of n + nn + nnn where n is positive int
+# input an integer and then calculate the sum
+# n + nn + nnn
 
 while True:
     number_string = input("Enter the positive integer value")
