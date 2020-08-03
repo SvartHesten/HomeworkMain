@@ -1,4 +1,4 @@
-# testing for odd or even
+# input a number, test if it is odd or even
 
 name = input(" What is Your name, my friend? ")
 while True:
