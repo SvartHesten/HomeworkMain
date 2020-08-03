@@ -1,4 +1,5 @@
-# test if multiple of 3, 5 or 7, output message
+# enter a number, test if multiple of 3, 5, 7
+# output appropriate message
 
 str0 = "is"
 str3 = " multiple of  3"
