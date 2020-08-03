@@ -1,4 +1,5 @@
-# Testing two numbers for division
+# Input two numbers and test if 
+# they are divisible by the other one
 
 while True:
     try:
