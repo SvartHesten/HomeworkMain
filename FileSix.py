@@ -1,4 +1,5 @@
-# average of five numbers without array
+# get average of five numbers
+# do not use arrays
 
 i = 1
 total = 0
