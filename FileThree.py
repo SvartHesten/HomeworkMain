@@ -1,4 +1,5 @@
-# Figuring third triangle angle
+# based ot two angles of a triangle
+# calculate the third angle
 
 while True:
     try:
