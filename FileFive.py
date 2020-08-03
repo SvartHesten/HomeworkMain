@@ -1,4 +1,5 @@
-# moving last digit to front if not zero or single digit
+# moving last digit of integer to front
+# if last digit zero do not move
 
 while True:
     num_str = input(" Enter the number")
