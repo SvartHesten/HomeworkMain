@@ -10,7 +10,7 @@ while True:
     if test_number % 2 == 0:
         print(f" {name}, the number {test_number} is even ")
         break
-    elif test_number % 2 != 2:
+    elif test_number % 2 != 0:
         print(f" {name}, the number {test_number} is odd")
         break
 print(" Have a great day!")
