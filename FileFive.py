@@ -16,5 +16,5 @@ else:
     first_str = num_str[len(num_str) - 1]
 for i in range(len(num_str) - 1):
     first_str = first_str + num_str[i]
-    print(first_str)
+print(first_str)
 
