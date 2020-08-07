@@ -11,18 +11,21 @@ while number_count < 1:
         continue
     number_count += 1
     print(f"the number count is equal {number_count}")
-number_list = list(number_str)
-print(number_list)
-maxi = number_list[0]
-for i in range(1, len(number_list)):
-    if number_list[i] >= maxi:
-        maxi = number_list[i]
-print(f" the maximum is {maxi} ")
-mini = number_list[0]
-for i in range(1, len(number_list)):
-    if number_list[i] <= mini:
-        mini = number_list[i]
-print(f" the minimum is  {mini} ")
-maxim = int(maxi)
-minim = int(mini)
-print(f" and the difference is equal to { maxim - minim}")
+if len(number_str) == 1:
+    print("no minimums or maximums, only one digit")
+else:
+    number_list = list(number_str)
+    print(number_list)
+    maxi = number_list[0]
+    for i in range(1, len(number_list)):
+        if number_list[i] >= maxi:
+            maxi = number_list[i]
+    print(f" the maximum is {maxi} ")
+    mini = number_list[0]
+    for i in range(1, len(number_list)):
+        if number_list[i] <= mini:
+            mini = number_list[i]
+    print(f" the minimum is  {mini} ")
+    maxim = int(maxi)
+    minim = int(mini)
+    print(f" and the difference is equal to { maxim - minim}")
